@@ -1,0 +1,129 @@
+*{
+    margin: 6px;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sexos{
+    margin-left: 18px;
+}
+
+.left_block{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.ulik{
+    list-style: none;
+    
+}
+
+.hombre{
+    color: #00000057;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    height: 100px;
+    z-index: 1;
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+
+.middle_block{
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center; 
+}
+
+.proms{
+    color: rgb(94, 141, 24)
+}
+
+.negrita {
+    font-weight: 600;
+}
+
+.texto{
+    color:rgba(103, 97, 97, 0.264);
+}
+.spann{
+    color: black;
+    font-weight: 600;
+}
+
+.right_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_block__header{
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.right_block_art{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+
+.right_block_text-num{
+    width: 100px;
+    color: rgba(0, 0, 0, 0.289)
+}
+
+.right_block_art img{
+    width: 15px;
+    height: 15px;
+    
+}
+
+.right_block_icons{
+    display: flex;
+    gap: 10px;
+
+}
+
+.right_block_icons img{
+    width: 15px;
+    height: 15px;
+}
+
+
+/*MAIN*/
+
+/* .productos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+} */
+
+img{
+    width: auto;
+    height: 500px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;  
+    flex-wrap: wrap;  
+}
